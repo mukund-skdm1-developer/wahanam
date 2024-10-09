@@ -20,13 +20,13 @@ export default function Routes() {
     <NavigationContainer>
       <Stack.Navigator screenOptions={{ headerShown: false }}>
         <Stack.Screen name={NavStrings.SPLASH} component={SplashScreen} />
-        {/* <Stack.Screen name={NavStrings.HOME} component={HomeScreen} /> */}
+        <Stack.Screen name={NavStrings.HOME} component={HomeScreen} />
         <Stack.Screen name={NavStrings.DETAILS} component={RecipeDetails} />
         <Stack.Screen name={NavStrings.SEARCH} component={Search} />
         <Stack.Screen name={NavStrings.DEMO} component={Demo} />
         <Stack.Screen name={NavStrings.LOGIN} component={Login} />
         <Stack.Screen name={NavStrings.FORGET} component={Forget} />
-        <Stack.Screen name={NavStrings.HOMES} component={Home} />
+        {/* <Stack.Screen name={NavStrings.HOMES} component={Home} /> */}
 
         <Stack.Screen name={NavStrings.SIGNUP} component={Signup} />
         <Stack.Screen name={NavStrings.VERIFY} component={Verify} />
