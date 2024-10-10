@@ -26,7 +26,7 @@ export default function Routes() {
         <Stack.Screen name={NavStrings.DEMO} component={Demo} />
         <Stack.Screen name={NavStrings.LOGIN} component={Login} />
         <Stack.Screen name={NavStrings.FORGET} component={Forget} />
-        <Stack.Screen name={NavStrings.HOMES} component={Home} />
+        <Stack.Screen name={NavStrings.HOMES} component={Hom e} />
 
         <Stack.Screen name={NavStrings.SIGNUP} component={Signup} />
         <Stack.Screen name={NavStrings.VERIFY} component={Verify} />
